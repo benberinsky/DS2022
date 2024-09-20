@@ -2,7 +2,10 @@
 
 set -e
 
+#clears the enviornment for readability
 clear
+
+#takes in user input for madlib
 echo "Let's build a mad-lib!"
 read -p "1. Name a city you would never want to visit: " NOUN1
 read -p "2. Name how you feel when you don't get enough sleep: " ADJECTIVE1
@@ -13,6 +16,7 @@ read -p "6. What is your favorite kind of weather: " ADJECTIVE2
 read -p "7. If you could pick one celebrity to be president, who would it be: " NOUN3
 read -p "8. What is your favorite thing to do when you have free time(use ing): "VERB2
 
+#tells story containing user inputted information
 echo "Once upon on a time there was a man named Bob. Bob was from $NOUN1,
 the greatest place one could ever live. One day, Bob woke up feeling very
 $ADJECTIVE1. He did 1000 reps of $VERB1, his favorite exercise. Bob started 
